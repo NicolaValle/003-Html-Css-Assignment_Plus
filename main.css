@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    background-color: #ccc;
+}
+
+#main-header{
+    width: 100%;
+}
+
+.main-brand{
+    display: inline-block;
+    width: 25%;
+    padding: 50px 0 20px 100px;
+}
+
+#main-nav{
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    bottom: 40px;
+}
+
+#main-nav__menu{
+    list-style: none;
+    text-align: right;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 30px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+}
+
+.nav-item--cta{
+    background-color: rgb(241, 186, 47);
+    padding: 15px 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 48px;
+    text-align: center;
+}
