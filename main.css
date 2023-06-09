@@ -9,6 +9,10 @@ body{
     background-color: #eae5e3;
 }
 
+a{
+    text-decoration: none;
+}
+
 main{
     color: #203449;
 }
@@ -54,6 +58,11 @@ main{
 .nav-item--cta{
     background-color: rgb(241, 186, 47);
     padding: 15px 30px;
+}
+
+.nav-item--cta:hover{
+    border: 1px solid rgb(174, 134, 33);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #first-project-block{
@@ -122,6 +131,12 @@ main{
     margin-top: 20px;
 }
 
+.project-description__second-block .service-button:hover,
+.project-description__second-block .service-button:active{
+    background-color: #fff9f7;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .project-description_quotations{
     margin-top: 20px;
     width: 35%;
@@ -136,9 +151,74 @@ main{
     margin: 0;
 }
 
-footer{
-    background-color: black;
-    color: white;
-    margin-top: 48px;
+.partners-footer{
+    background: white;
+    color: rgb(50, 50, 50);
     text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.partners-footer img{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    margin: 70px;
+}
+
+footer{
+    background-color: #203449;
+    color: white;
+    text-align: center;
+}
+
+#footer__brands{
+    margin-top: 40px;
+    display: inline-block;
+    width: 30%;
+}
+
+.footer__brand{
+    margin: 20px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+#footer__link-lists{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+
+.footer__link-list{
+    padding: 0;
+    margin: 15px 30px;
+    display: inline-block;
+    width: 20%;
+    list-style: none;
+    vertical-align: top;
+}
+
+.footer__link-list h4{
+    text-align: left;
+}
+
+.footer__link-list > li{
+    text-align: left;
+}
+
+.footer__link-list a{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__link-list a:hover,
+.footer__link-list a:active{
+    color: white;
+}
+
+#footer__rights{
+    background-color: aqua;
+    text-align: left;
+    font-size: 12px;
+    width: 50%;
 }
